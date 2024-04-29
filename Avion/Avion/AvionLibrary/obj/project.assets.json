@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\killi\\.nuget\\packages\\": {}
+    "C:\\Users\\spaci\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\killi\\Documents\\CÉGEP\\Hiver 2024\\Programmation 2\\Avion\\Avion\\AvionLibrary\\AvionLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\spaci\\OneDrive - Cégep de Victoriaville\\Bureau\\Avion\\Avion\\AvionLibrary\\AvionLibrary.csproj",
       "projectName": "AvionLibrary",
-      "projectPath": "C:\\Users\\killi\\Documents\\CÉGEP\\Hiver 2024\\Programmation 2\\Avion\\Avion\\AvionLibrary\\AvionLibrary.csproj",
-      "packagesPath": "C:\\Users\\killi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\killi\\Documents\\CÉGEP\\Hiver 2024\\Programmation 2\\Avion\\Avion\\AvionLibrary\\obj\\",
+      "projectPath": "C:\\Users\\spaci\\OneDrive - Cégep de Victoriaville\\Bureau\\Avion\\Avion\\AvionLibrary\\AvionLibrary.csproj",
+      "packagesPath": "C:\\Users\\spaci\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\spaci\\OneDrive - Cégep de Victoriaville\\Bureau\\Avion\\Avion\\AvionLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\killi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\spaci\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
