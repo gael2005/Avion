@@ -1,10 +1,10 @@
 ﻿namespace Avion
 {
-    internal class Program
+    internal class Program2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hello, World");
         }
     }
-}
+} 
