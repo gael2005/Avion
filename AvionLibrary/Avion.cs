@@ -28,9 +28,9 @@
             private set 
             {
                 if (value is null)
-                    throw new ArgumentNullException(nameof(value));
+                    throw new ArgumentNullException("Le pilote est null");
                 if (value.Length == 0)
-                    throw new ArgumentException();
+                    throw new ArgumentException("Le pilote est vide");
                 _pilote = value;
             } 
         }
@@ -40,9 +40,9 @@
             private set
             {
                 if (value is null)
-                    throw new ArgumentNullException(nameof(value));
-                if (value.Length == 0)
-                    throw new ArgumentException();
+                    throw new ArgumentNullException("Le copilote est null");
+                if (value.Length == 3)
+                    throw new ArgumentException("Le copilote est vide");
                 _copilote = value;
             } 
         }
@@ -52,9 +52,9 @@
             private set
             {
                 if (value is null)
-                    throw new ArgumentNullException(nameof(value));
-                if (value.Length == 0)
-                    throw new ArgumentException();
+                    throw new ArgumentNullException("Agents null");
+                if (value.Length != 3)
+                    throw new ArgumentException("Il doit y avoir 3 agents");
                 _agents = value;
             }
         }

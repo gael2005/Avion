@@ -1,0 +1,6 @@
+New section(classe, ranger, habicle, avion)
+New ranger(habitacle, avion)
+New habitacle (avion)
+New equipe (pilote, copilote, ingénieur, agent1, agent2, agent3)
+new avion(nom_avion)
+New passager(classe, coord, habitacle, nom, nom_avion)
