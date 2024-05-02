@@ -6,23 +6,18 @@ using System.Threading.Tasks;
 
 namespace AvionLibrary
 {
-    public class Ranger
+    public class Siège
     {
-        private Section[] _sections;
+        private Passager[] passagers;
 
-        public Ranger(Section[] sections)
-        {
-            Sections = sections;
-        }
-
-        public Section[] Sections 
+        public Passager[] Passagers 
         { 
-            get => _sections; 
+            get => passagers; 
             set
             {
                 if (value is null)
                     throw new ArgumentNullException(nameof(value) + "ne peut être null");
-                _sections = value;
+                passagers = value;
             }
         }
     }

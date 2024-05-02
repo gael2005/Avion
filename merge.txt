@@ -1,0 +1,15 @@
+git add .
+git commit -m ""
+git push
+git checkout dev
+git pull
+git checkout gael
+git merge dev
+git chechout dev
+git merge gael
+git push
+checkout gael
+
+git pull (sur dev)
+git checkout gael
+git merge dev
