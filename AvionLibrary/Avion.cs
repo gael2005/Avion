@@ -5,58 +5,34 @@
     /// </summary>
     public class Avion
     {
-        private string _pilote;
-        private string _copilote;
-        private string[] _agents;
+        private Habitacle _habitacle;
+        private Equipe _equipe;
 
-        /// <summary>
-        /// Constructeur de la classe avion.
-        /// </summary>
-        /// <param name="pilote">non null, non vide</param>
-        /// <param name="copilote">non null, non vide</param>
-        /// <param name="agents">non null, non vide</param>
-        public Avion(string pilote, string copilote, string[] agents)
+        public Avion(Habitacle habitacle, Equipe equipe)
         {
-            Pilote = pilote;
-            Copilote = copilote;
-            Agents = agents;
+            Habitacle = habitacle;
+            Equipe = equipe;
         }
 
-        public string Pilote 
+        public Habitacle Habitacle 
         { 
-            get => _pilote;
-            private set 
-            {
-                if (value is null)
-                    throw new ArgumentNullException("Le pilote est null");
-                if (value.Length == 0)
-                    throw new ArgumentException("Le pilote est vide");
-                _pilote = value;
-            } 
-        }
-        public string Copilote 
-        { 
-            get => _copilote;
-            private set
-            {
-                if (value is null)
-                    throw new ArgumentNullException("Le copilote est null");
-                if (value.Length == 3)
-                    throw new ArgumentException("Le copilote est vide");
-                _copilote = value;
-            } 
-        }
-        public string[] Agents 
-        { 
-            get => _agents;
-            private set
-            {
-                if (value is null)
-                    throw new ArgumentNullException("Agents null");
-                if (value.Length != 3)
-                    throw new ArgumentException("Il doit y avoir 3 agents");
-                _agents = value;
+            get => _habitacle; 
+            set 
+            { 
+                if (value is null) 
+                    throw new ArgumentNullException(nameof(value) + "Ne peut pas être null.");
+                _habitacle = value;
             }
+        }
+        public Equipe Equipe 
+        { 
+            get => _equipe; 
+            set
+            {
+                if (value is null)
+                    throw new ArgumentNullException(nameof(value) + "Ne peut pas être null.");
+                _equipe = value;
+            } 
         }
     }
 }

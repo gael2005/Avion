@@ -1,6 +1,18 @@
+New passager(classe, coord, habitacle, nom, nom_avion)
+New siege(classe, T_passager)
 New section(classe, ranger, habicle, avion)
 New ranger(habitacle, avion)
 New habitacle (avion)
 New equipe (pilote, copilote, ingénieur, agent1, agent2, agent3)
 new avion(nom_avion)
-New passager(classe, coord, habitacle, nom, nom_avion)
+
+Avion : un Habitacle et une Équipe
+Habitacle : List de rangées
+Ranger : List de sections
+Sections : List de sièges
+Sièges : List de passagers et classe de sièges
+Passagers : Classe de sièges
+
+classe de siège = premiere classe, classe economique plus, classe economique.
+
+tous les sièges sont économique pour l'instant.

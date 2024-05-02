@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AvionLibrary
 {
-    internal class Equipe
+    public class Equipe
     {
     }
 }

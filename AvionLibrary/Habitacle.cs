@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AvionLibrary
 {
-    internal class Habitacle
+    public class Habitacle
     {
+        private Ranger[] rangées;
     }
 }

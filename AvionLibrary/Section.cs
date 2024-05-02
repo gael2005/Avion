@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AvionLibrary
 {
-    internal class Section
+    public class Section
     {
+
     }
 }

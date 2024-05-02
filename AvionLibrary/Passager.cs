@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AvionLibrary
 {
-    internal class Passager
+    public class Passager
     {
         private string _nom;
         private string _coordonnée;
