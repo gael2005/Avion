@@ -11,7 +11,7 @@ namespace AvionLibrary
         private string _nom;
         private string _coordonnée;
 
-        public Passager(string nom, string coordonnée)
+        internal Passager(string nom, string coordonnée)
         {
             Nom = nom;
             Coordonnée = coordonnée;
